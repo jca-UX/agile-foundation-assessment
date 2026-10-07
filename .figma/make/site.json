@@ -1,0 +1,11 @@
+{
+  "title": "agile-mock-assessment",
+  "description": "Sample mock assessment for agile professional",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

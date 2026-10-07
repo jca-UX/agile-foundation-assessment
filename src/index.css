@@ -1,0 +1,69 @@
+@import 'tailwindcss';
+
+@layer base {
+  :root {
+    --font-brand: 'Graphik', Arial, sans-serif;
+    --fw-regular: 400;
+    --fw-semibold: 600;
+
+    --color-brand-100: #E6DCFF;
+    --color-brand-200: #C2A3FF;
+    --color-brand-300: #A100FF;
+    --color-brand-400: #7500C0;
+    --color-brand-500: #460073;
+
+    --color-white:        #FFFFFF;
+    --color-neutral-100:  #F1F1EF;
+    --color-neutral-200:  #CFCFCF;
+    --color-neutral-300:  #808080;
+    --color-neutral-400:  #555555;
+    --color-neutral-500:  #202020;
+    --color-black:        #000000;
+
+    --color-success-100:  #E5FAF1;
+    --color-success-300:  #167C61;
+    --color-success-400:  #065F46;
+    --color-warning-100:  #FEF3C4;
+    --color-warning-300:  #C16B02;
+    --color-critical-100: #FFE3E3;
+    --color-critical-300: #D60D0D;
+    --color-critical-400: #991B1B;
+    --color-info-100:     #C9E1FF;
+    --color-info-400:     #224BFF;
+
+    --space-1:  4px;
+    --space-2:  8px;
+    --space-3:  12px;
+    --space-4:  16px;
+    --space-5:  20px;
+    --space-6:  24px;
+    --space-8:  32px;
+    --space-10: 40px;
+    --space-12: 48px;
+    --space-16: 64px;
+  }
+
+  *, *::before, *::after {
+    font-family: var(--font-brand);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: var(--color-neutral-100);
+    color: var(--color-neutral-500);
+    margin: 0;
+    padding: 0;
+  }
+
+  .ads-display      { font-size: 48px; font-weight: 600; line-height: 1.08; letter-spacing: -0.02em; }
+  .ads-h1           { font-size: 40px; font-weight: 600; line-height: 1.10; letter-spacing: -0.02em; }
+  .ads-h2           { font-size: 28px; font-weight: 600; line-height: 1.20; letter-spacing: -0.02em; }
+  .ads-h3           { font-size: 20px; font-weight: 600; line-height: 1.25; }
+  .ads-widget-title { font-size: 16px; font-weight: 600; line-height: 1.25; }
+  .ads-label        { font-size: 14px; font-weight: 600; line-height: 1.43; }
+  .ads-eyebrow      { font-size: 12px; font-weight: 600; line-height: 1.33; letter-spacing: 0.10em; text-transform: uppercase; }
+  .ads-body-md      { font-size: 16px; font-weight: 400; line-height: 1.50; }
+  .ads-body-sm      { font-size: 14px; font-weight: 400; line-height: 1.43; }
+  .ads-caption      { font-size: 12px; font-weight: 400; line-height: 1.33; }
+}
